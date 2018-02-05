@@ -1,4 +1,5 @@
 # Telegraf [![Circle CI](https://circleci.com/gh/influxdata/telegraf.svg?style=svg)](https://circleci.com/gh/influxdata/telegraf) [![Docker pulls](https://img.shields.io/docker/pulls/library/telegraf.svg)](https://hub.docker.com/_/telegraf/)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fleonkuperman%2Ftelegraf.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fleonkuperman%2Ftelegraf?ref=badge_shield)
 
 Telegraf is an agent written in Go for collecting, processing, aggregating,
 and writing metrics.
@@ -298,3 +299,7 @@ formats may be used with input plugins supporting the `data_format` option:
 * [tcp](./plugins/outputs/socket_writer)
 * [udp](./plugins/outputs/socket_writer)
 * [wavefront](./plugins/outputs/wavefront)
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fleonkuperman%2Ftelegraf.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fleonkuperman%2Ftelegraf?ref=badge_large)
